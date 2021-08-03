@@ -75,11 +75,10 @@ body {
     background: rgba(252, 21, 21, 0.74);
 }
 
-
-ul li {
+ol li {
     color: #4c353c;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .title {
@@ -88,5 +87,4 @@ ul li {
     font-size: 35px;
     margin: unset;
 }
-
 
