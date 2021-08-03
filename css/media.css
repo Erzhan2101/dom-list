@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    .d-l {
+        right: 121px;
+        top: 143px;
+    }
+
+    body {
+        height: 99vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .d-l {
+        right: 28px;
+        width: 85%;
+    }
+
+    .text-input {
+        margin-left: 28px;
+        width: 338px;
+    }
+
+    .add-btn {
+        margin: 10px 52px 0 72px;
+    }
+}
+
+@media (max-width: 480px) {
+    .d-l {
+        right: 20px;
+    }
+
+    .text-input {
+        margin-left: 8px;
+        width: 234px;
+    }
+
+    .add-btn {
+        margin: 10px 13px 10px 19px;
+    }
+
+}

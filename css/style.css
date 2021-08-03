@@ -1,5 +1,92 @@
 
-
-ul{
+ul {
     list-style: none;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 95vh;
+    position: relative;
+    background: #0005 url("../img/1618504812_35-funart_pro-p-oboi-fon-krasivii-anime-fon-37.jpg") no-repeat center/cover;
+}
+
+.d-l {
+    position: absolute;
+    right: 405px;
+    top: 103px;
+    border-radius: 10px;
+    background: rgba(255, 201, 110, 0.65);
+    padding: 5px;
+    border: 1px solid rgba(145, 61, 41, 0.73);
+}
+
+.add-btn {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background: blue;
+    border-radius: 10px;
+    border: none;
+    transition: .6s;
+}
+
+.add-btn:hover {
+    background: rgba(45, 45, 212, 0.66);
+}
+
+.clear-all {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background: red;
+    border-radius: 10px;
+    border: none;
+    transition: .6s;
+}
+
+.clear-all:hover {
+    background: rgba(252, 65, 65, 0.76);
+}
+
+.text-input {
+    height: 30px;
+    width: 260px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.gg {
+    margin-top: 5px;
+}
+
+.cls-btn {
+    background: red;
+    border: none;
+    border-radius: 5px;
+    width: 72px;
+    height: 24px;
+    color: #fff;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+.cls-btn:hover {
+    background: rgba(252, 21, 21, 0.74);
+}
+
+
+ul li {
+    color: #4c353c;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #bf2d3f;
+    text-align: center;
+    font-size: 35px;
+    margin: unset;
+}
+
+

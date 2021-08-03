@@ -8,14 +8,16 @@ addBtn.addEventListener("click", () => {
         list.innerHTML += `<li>
                            <input type="checkbox">        
                            ${textInput.value}
-                           <button class="cls-btn">Удалить</button>
+                           <button class="cls-btn" 
+                            >Удалить</button>
                            </li>`
         textInput.value = ""
     }
 })
 
-list.addEventListener("click", (event) =>{
-    if(event.target.classList[0] === "cls-btn"){
+list.addEventListener("click", (event) => {
+    if (event.target.classList[0] === "cls-btn") {
         event.target.parentNode.remove()
     }
 })
+
