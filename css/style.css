@@ -92,3 +92,7 @@ ol li {
 .line-through{
     text-decoration: line-through;
 }
+
+.done{
+    margin-right: 20px;
+}
